@@ -1,3 +1,11 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [Form1.cs](./CS/CustomSeparator/Form1.cs) (VB: [Form1.vb](./VB/CustomSeparator/Form1.vb))
+* [HtmlSeparatorForm.cs](./CS/CustomSeparator/HtmlSeparatorForm.cs) (VB: [HtmlSeparatorForm.vb](./VB/CustomSeparator/HtmlSeparatorForm.vb))
+* **[MyMailMergeExportForm.cs](./CS/CustomSeparator/MyMailMergeExportForm.cs) (VB: [MyMailMergeExportForm.vb](./VB/CustomSeparator/MyMailMergeExportForm.vb))**
+* [RichSeparatorForm.cs](./CS/CustomSeparator/RichSeparatorForm.cs) (VB: [RichSeparatorForm.vb](./VB/CustomSeparator/RichSeparatorForm.vb))
+<!-- default file list end -->
 # How to provide custom separators between records in a merged document
 
 
