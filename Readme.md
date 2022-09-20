@@ -17,10 +17,12 @@
 >
 > As you may already know, the [WinForms Snap control](https://docs.devexpress.com/WindowsForms/11373/controls-and-libraries/snap) and [Snap Report API](https://docs.devexpress.com/OfficeFileAPI/15188/snap-report-api) are now in maintenance support mode. No new features or capabilities are incorporated into these products. We recommend that you use [DevExpress Reporting](https://docs.devexpress.com/XtraReports/2162/reporting) tool to generate, edit, print, and export your business reports/documents.
 
-<p>This example demonstrates how to provide a custom element to separate each record in a document when none of the standard separators meets your requirements. Handle the <a href="http://help.devexpress.com/#WindowsForms/DevExpressSnapSnapControl_MailMergeExportFormShowingtopic">SnapControl.MailMergeExportFormShowing</a> event and use the <a href="http://help.devexpress.com/#WindowsForms/DevExpressSnapCoreOptionsSnapMailMergeExportOptions_CustomSeparatortopic">SnapMailMergeExportOptions.CustomSeparator</a> property to create a custom separator.</p>
-<p>Run this example, click <strong>Finish&Merge</strong> on the <a href="http://documentation.devexpress.com/#WindowsForms/CustomDocument16496"><u>Data Tools: Mail Merge</u></a> toolbar and specifya custom separator  that is inserted between each pair of master sections, as illustated in the picture below.<br><br><img src="https://raw.githubusercontent.com/DevExpress-Examples/how-to-provide-custom-separators-between-records-in-a-merged-document-e5073/15.1.9+/media/499d75dc-4cf6-11e6-80bf-00155d62480c.png"></p>
-<p>See also: <a href="https://www.devexpress.com/Support/Center/p/E5074">How to add a custom progress indicator to a Snap application</a>.</p>
+This example demonstrates how to provide a custom element to separate each record in a document when none of the standard separators meets your requirements. Handle the [SnapControl.MailMergeExportFormShowing](https://docs.devexpress.com/WindowsForms/DevExpress.Snap.SnapControl.MailMergeExportFormShowing?v=21.2) event and use the [SnapMailMergeExportOptions.CustomSeparator](https://docs.devexpress.com/WindowsForms/DevExpress.Snap.Core.Options.SnapMailMergeExportOptions.CustomSeparator?v=21.2) property to create a custom separator.
 
-<br/>
+Run this example, click **Finish&Merge** on the [Data Tools: Mail Merge](https://docs.devexpress.com/WindowsForms/11373/controls-and-libraries/snap?v=21.2) toolbar and specifya custom separator  that is inserted between each pair of master sections, as illustated in the picture below.  
+
+![](https://raw.githubusercontent.com/DevExpress-Examples/how-to-provide-custom-separators-between-records-in-a-merged-document-e5073/15.1.9+/media/499d75dc-4cf6-11e6-80bf-00155d62480c.png)
+
+See also: [How to add a custom progress indicator to a Snap application](https://github.com/DevExpress-Examples/how-to-add-a-custom-progress-indicator-to-a-snap-application-e5074).
 
 
